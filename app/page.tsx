@@ -46,7 +46,7 @@ export default function HomePage() {
             <div className="lg:col-span-6 relative">
               <div className="relative h-[380px] sm:h-[460px] rounded-3xl overflow-hidden shadow-elevated border-4 border-white">
                 <Image
-                  src="/assets/ecowish/waste-products/waste-item-2.jpg"
+                  src="/assets/images/ecowishcraftimage.jpg"
                   alt="EcoWish Craft India authentic upcycled agriculture craft"
                   fill
                   sizes="(max-width: 1024px) 100vw, 550px"
