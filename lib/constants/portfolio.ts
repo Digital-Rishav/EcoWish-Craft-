@@ -2,15 +2,15 @@ export interface PortfolioItem {
   id: string;
   title: string;
   category:
-    | "Portraits"
-    | "Paintings"
-    | "Handicrafts"
-    | "Home Decor"
-    | "Interior Design"
-    | "Event Decor"
-    | "Wedding Decor"
-    | "Festive Decor"
-    | "Upcycling";
+  | "Portraits"
+  | "Paintings"
+  | "Handicrafts"
+  | "Home Decor"
+  | "Interior Design"
+  | "Event Decor"
+  | "Wedding Decor"
+  | "Festive Decor"
+  | "Upcycling";
   shortDescription: string;
   image: string;
   location?: string;
@@ -67,7 +67,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Portraits",
     shortDescription:
       "Custom commemorative portrait created from vintage family photographs, preserved for generations.",
-    image: "/assets/ecowish/portraits/portrait-3.jpg",
+    image: "/assets/ecowish/portraits/portrait-10.jpg",
     location: "Patna, Bihar",
     materials: "Archival Charcoal, Graphite, Protective Varnish",
     year: "2024",

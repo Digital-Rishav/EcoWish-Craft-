@@ -54,7 +54,7 @@ export default function DussehraSaleSection() {
       id: "sale-waste",
       title: "Handmade Agriculture Waste Straw Art Frame",
       category: "Upcycling & Eco Decor",
-      image: "/assets/ecowish/waste-products/waste-item-1.jpg",
+      image: "/assets/ecowish/products/product-11.jpg",
       regularPrice: "₹1,999",
       salePrice: "₹999",
       discount: "50% OFF",

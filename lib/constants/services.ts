@@ -342,7 +342,7 @@ export const SERVICES: ServiceItem[] = [
     fullDescription:
       "EcoWish Craft India bridges corporate sustainability goals with grassroots artisan empowerment. We collaborate with companies, educational institutions, and non-profits to deliver measurable environmental and social impact. From custom ethical corporate gifts crafted from upcycled industrial scrap to campus-wide waste-to-art installations and interactive employee sustainability workshops, we make eco-consciousness tangible and memorable.",
     heroImage:
-      "/assets/ecowish/products/product-4.jpg",
+      "/assets/images/hero-right.jpg",
     iconName: "Briefcase",
     subCategories: [
       "Customized sustainable corporate gifting",

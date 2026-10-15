@@ -109,7 +109,7 @@ export default function Hero() {
               {/* Main Feature Image Card */}
               <div className="relative h-[400px] sm:h-[480px] rounded-3xl overflow-hidden shadow-elevated border-4 border-white">
                 <Image
-                  src="/assets/ecowish/paintings/painting-1.jpg"
+                  src="/assets/ecowish/products/product-10.jpg"
                   alt="Authentic EcoWish Craft India Fine Art Painting"
                   fill
                   priority
@@ -122,7 +122,7 @@ export default function Hero() {
                 <div className="absolute top-4 right-4 px-3 py-1.5 rounded-full bg-amber-500/90 backdrop-blur-md text-white text-xs font-extrabold shadow-md border border-amber-300">
                   🏹 Dussehra 50% OFF
                 </div>
-                
+
                 {/* Floating Inset Badge */}
                 <div className="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-white/95 backdrop-blur-md border border-white/60 shadow-lg">
                   <div className="flex items-center justify-between">
@@ -148,7 +148,7 @@ export default function Hero() {
               <div className="absolute -top-5 -left-5 hidden sm:flex items-center gap-3 p-3 rounded-2xl bg-white shadow-elevated border border-ecowish-border animate-in fade-in slide-in-from-bottom-2">
                 <div className="relative w-11 h-11 rounded-xl overflow-hidden flex-shrink-0 bg-ecowish-sand">
                   <Image
-                    src="/assets/ecowish/portraits/portrait-1.jpg"
+                    src="/assets/ecowish/portraits/portrait-2.jpg"
                     alt="Realistic Portrait Study"
                     fill
                     className="object-cover"
