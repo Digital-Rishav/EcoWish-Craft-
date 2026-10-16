@@ -183,15 +183,15 @@ export default function Footer() {
                   Terms & Conditions
                 </Link>
               </li>
-              <li className="pt-2">
+              {/* <li className="pt-2">
                 <Link
                   href="/admin/leads"
                   className="text-[11px] text-white/40 hover:text-white/80 transition-colors flex items-center gap-1"
                 >
-                  {/* <ShieldCheck className="w-3 h-3" />
+                  <ShieldCheck className="w-3 h-3" />
                   <span>Leads Dashboard</span>
-                </Link> */}
-              </li>
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>
