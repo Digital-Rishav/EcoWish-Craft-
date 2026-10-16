@@ -107,7 +107,7 @@ export default function AboutPage() {
             <div className="lg:col-span-6 relative">
               <div className="relative h-[380px] sm:h-[460px] rounded-3xl overflow-hidden shadow-elevated border-4 border-white">
                 <Image
-                  src="https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=1200&q=80"
+                  src="/assets/ecowish/paintings/painting-12.jpg"
                   alt="Rural artisans working on upcycled handicrafts"
                   fill
                   className="object-cover"

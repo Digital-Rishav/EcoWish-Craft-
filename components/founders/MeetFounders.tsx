@@ -25,7 +25,34 @@ export default function MeetFounders() {
               key={founder.name}
               className="bg-white rounded-2xl overflow-hidden border border-ecowish-border shadow-soft hover:shadow-elevated transition-shadow duration-300 flex flex-col md:flex-row"
             >
+              
               {/* Image Column */}
+              <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] md:aspect-auto md:w-5/12 md:min-h-[380px] md:self-stretch bg-ecowish-sand overflow-hidden">
+              <Image
+                src={founder.image}
+                alt={`${founder.name} - ${founder.role}`}
+                fill
+                sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 300px"
+                className="object-cover object-[center_25%] md:object-center transition-transform duration-500 md:hover:scale-105"
+              />
+
+              {/* Mobile image overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent md:hidden pointer-events-none" />
+
+              {/* Founder details on mobile */}
+              <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 text-white md:hidden pointer-events-none">
+                <div className="font-serif font-bold text-lg sm:text-xl leading-tight">
+                  {founder.name}
+                </div>
+                <div className="mt-1 text-xs sm:text-sm text-white/90">
+                  {founder.role}
+                </div>
+              </div>
+              </div>
+
+
+
+              {/* Image Column
               <div className="md:w-5/12 relative min-h-[300px] md:min-h-[380px] bg-ecowish-sand overflow-hidden">
                 <Image
                   src={founder.image}
@@ -39,7 +66,7 @@ export default function MeetFounders() {
                   <div className="font-serif font-bold text-lg">{founder.name}</div>
                   <div className="text-xs text-ecowish-accent-light">{founder.role}</div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Content Column */}
               <div className="p-6 sm:p-8 md:w-7/12 flex flex-col justify-between">
